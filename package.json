@@ -1,6 +1,6 @@
 {
-  "name": "vector-web-setup",
-  "version": "1.0.0",
+  "name": "neurral-vws",
+  "version": "0.1.0",
   "dependencies": {
     "axios": "^0.19.2",
     "body-parser": "^1.19.0",
@@ -24,6 +24,10 @@
     "vector-setup": "node vector-setup.js",
     "test": "mocha test/*"
   },
-  "author": "Digital Dream Labs",
-  "license": "MIT"
+  "author": "neurral",
+  "description": "Custom fork of @digital-dream-labs/vector-web-setup",
+  "license": "MIT",
+  "volta": {
+    "node": "12.18.3"
+  }
 }
