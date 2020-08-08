@@ -3,11 +3,11 @@
 /* Copyright (c) 2019-2020 Digital Dream Labs. See LICENSE file for details. */
 
 var commander = require('commander');
-
+const { version } = require('./package.json');
 const program = new commander.Command();
 
 program
-  .version('1.0.0', '-v, --version')
+  .version(version, '-v, --version')
   .description(
     `
     __      ________  ____ ______ ____  _____   
