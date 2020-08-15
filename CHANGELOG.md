@@ -1,3 +1,10 @@
+* Fized typo so npm run vector-setup works.
+
+* Added a stock Docker file for users who prefer docker deployments.
+
+* Users can now initiate vector authorization by 
+  pressing enter or clicking on sign-in.
+
 * Fixed usage string to reflect use of packaged node.js app rather
   than source checkout execution.
   
